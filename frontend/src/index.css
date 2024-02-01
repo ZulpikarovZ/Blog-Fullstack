@@ -1,0 +1,29 @@
+@import url('fonts/font-awesome-4.7.0/css/font-awesome.min.css');
+
+* {
+	box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	font-family: -apple-system, 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #405060;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
